@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Satisfaction Survey</title>
+    <link rel="stylesheet" href="surveyFormTwo.css">
+</head>
+<body>
+
+<!-- problem: overallsatisfaction many options are getting chosen -->
+    
+    <div class="container">
+
+
+    <h1 id="heading">Eco-Friendly Survey Questions</h1>
+    <p id="description">Thank you for taking the time to help us improve our Survey!     </p>
+    <br>
+   
+
+<form id="survey-form">
+
+    <div class="survey-group">
+    <label for="name" id="survey-label">Name : </label><br>
+    <input id="name" type="text" placeholder="Enter your name" required>
+    <br>
+    </div>
+
+    <div class="survey-group">
+    <label for="email" id="survey-label">Email :  </label><br>
+    <input id="email" placeholder="Enter your Email" type="email" required>
+    <br>
+    </div>
+
+    <div class="survey-group">
+    <label for="number" id="survey-label">Number : </label><br>
+    <input id="number" placeholder="Enter your number" type="number">
+    <br>
+    <br>
+    </div>
+
+
+    <div class="OverallSatisfaction">
+
+        <p id="OverallSatisfaction-id">Which of the following eco-friendly practices are you aware of? (Select all that apply)</p>
+
+    <input type="radio" id="option1" class="options" value="option1">
+    <label for="option1">Recycling</label>
+    <br>
+
+    <input type="radio" id="option2" class="options" value="option2">
+    <label for="option2">Composting</label>
+    <br>
+
+    <input type="radio" id="option3" class="options" value="option3">
+    <label for="option3">Reducing water usage</label> <br>
+
+    <input type="radio" id="option4" class="options" value="option4">
+    <label for="option2">Using energy-efficient appliances</label>
+    <br>
+
+    <input type="radio" id="option5" class="options" value="option5">
+    <label for="option3">Sustainable transportation </label>
+    <br>
+
+    </div>
+
+    
+    <div class="SerivceFeatures">
+
+ 
+        <label for="dropdown" id="ServiceFeatures-id">Are you planning to adopt more eco-friendly practices in the next year?
+        </label>
+        <br>
+    
+        <select id="dropdown">
+          <option value="one">Yes</option>
+          <option value="two">No</option>
+          <option value="three">Maybe</option>
+        </select>
+    
+    </div>
+
+    <div class="formGroup">
+        <p>What barriers do you face in adopting more eco-friendly practices? (Select all that apply)</p>
+
+        <input id="camp" type="checkbox" value="student">
+        <label for="form">Lack of information</label> <br>
+        
+        <input id="camp" type="checkbox" value="student">
+        <label for="form">Cost of eco-friendly products</label> <br>
+
+        <input id="camp" type="checkbox" value="student">
+        <label for="form">Convenience</label> <br>
+
+        <input id="camp" type="checkbox" value="student">
+        <label for="form">Limited access to recycling facilities</label> <br>
+
+        <input id="camp" type="checkbox" value="student">
+        <label for="form">Availability</label>  <br>
+
+        <input id="camp" type="checkbox" value="student">
+        <label for="form">Social Pressure</label>  <br>
+
+        <input id="camp" type="checkbox" value="student">
+        <label for="form">Infrastructure</label>  <br>
+
+        <input id="camp" type="checkbox" value="student">
+        <label for="form">Other</label>  <br>
+        <br>
+    </div>
+<!-- 
+   <div class="recommendation">
+    <label for="dropdown">How likely are you to recommend our product/service to a friend or colleague?
+    </label>
+    <br>
+  
+    <select id="dropdown">
+      <option value="one">Very Likely</option>
+      <option value="two">Likely</option>
+      <option value="three">Neutral</option>
+      <option value="four">Unlikely</option>
+      <option value="five">Very Unlikely</option>
+    </select>
+   </div> -->
+
+
+    <div class="comments">
+
+    <label for="comment">Do you have any additional comments or suggestions regarding eco-friendly practices?</label> <br>
+    <textarea id="comment" name="comment" rows="5" cols="30"></textarea>
+
+    </div>
+
+    <div class="button">
+        <input id="submit" type="submit" value="Submit">
+        </div>
+</div>
+
+    </form>
+</body>
+</html>
